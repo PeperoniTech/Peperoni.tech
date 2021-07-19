@@ -1,14 +1,13 @@
-# PeperoniTech.xyz🌐
+# Peperoni.tech🌐
 - 👌 Website for peperoni tech, made from scratch in html�
  
-# [👉WEBSITE👈]()
+# [👉WEBSITE👈](https://peperoni.tech)
 
 ## Lastest Update
 - Created website🌐
 
 
-
 ## Changelog
 
-### PeperoniTech.xyz 1.0 "Starter"
+### PeperoniTech.tech 1.0 "Starter"
 - Created website🌐

@@ -1,5 +1,5 @@
 # Peperoni.tech🌐
-- 👌 Website for peperoni tech, made from scratch in html�
+- 👌 Website for peperoni tech, made from scratch in html
  
 # [👉WEBSITE👈](https://peperoni.tech)
 

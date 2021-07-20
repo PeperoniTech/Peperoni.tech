@@ -14,6 +14,8 @@
 <style>
 
 body {
+  background-color: black;
+  color: white;
   background-image: url('win2.jpg');
   backdrop-filter: blur(5px);
   
@@ -27,22 +29,32 @@ background-repeat: no-repeat;
 
 .dark-mode {
 background-image: url('win1.jpg');
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 </style>
 
 <body>
 
-    <button onclick="myFunction()">Toggle dark mode</button>
+  <h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+    <label class="switch" >
+      <input type="checkbox" onclick="myFunction()">
+      <span class="slider round"></span>
+    </label>
+
+
+
+
 
 <script>
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
-    </script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+</script>
 
 </body>
 

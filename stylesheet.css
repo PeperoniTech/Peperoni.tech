@@ -51,11 +51,11 @@ nav a:hover{
 nav a::before{
     content: '';
     display: block;
-    height: 5px;
+    height: 3px;
     background-color: rgb(255, 255, 255);
 
     position: absolute;
-    top:90;
+    top:76;
     width: 0%;
 
     transition: all ease-in-out 250ms;
@@ -89,3 +89,113 @@ body {
   
   
   }
+
+.bigtext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    font-size: 370%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.smoltext{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    font-size: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin:20px;
+  height: 250px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.project-1 {
+  background: url('Icons/Computer.png');
+  background-size: cover;
+  color: white;
+}
+
+.project-2 {
+  background-color:#051028;
+  text-align: center;
+  color: white;
+  
+}
+
+.project-3 {
+  background-color:#209BFF;
+  text-align: center;
+  color: white;
+}
+
+.project-4 {
+  background-color:#112d4e;
+  text-align: center;
+  color: white;
+}
+
+.project-5 {
+  background-color:#051028;
+  text-align: center;
+  color: white;
+}
+
+
+.project-8 {
+  background: url('Icons/Defrag.png');
+  background-size: cover;
+}
+
+
+.animation{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+ 
+.line{
+    position: relative;
+    top: 40%;
+    width: 17em;
+    margin: 0 auto;
+    border-right: 5px solid #000000;
+    font-size: 220%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+
+
+
+/*ANIMATION*/
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter{
+    from {
+        width: 0;
+    }
+    to {
+        width: 17em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #000000;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}

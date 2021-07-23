@@ -1,5 +1,6 @@
 <html lang="en">
-<head>
+<head>  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="theme.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
     <title> Peperoni Tech </title>  
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
@@ -7,7 +8,13 @@
     <meta name="keywords" content="Peperoni, Tech, How to slove photoshop error, FREE PEEERONI, SUS, Peperoni Techy">
     <meta name="generator" content="Macromedia HomeSite 5.0">
     <meta name="author" content="Peperoni Tech">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 
@@ -24,37 +31,58 @@ body {
   height: 100vh;
   background-size: cover;
 background-repeat: no-repeat;
+padding: 0;
+margin: 0;
+
+
 
 }
 
-.dark-mode {
-background-image: url('win1.jpg');
-  background-color: white;
-  color: black;
+body::-webkit-scrollbar {
+  width: 0.25rem;
 }
 
+body::-webkit-scrollbar-track{
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: white;
+}
+
+
+main {
+margin-left: 5rem;
+
+
+}
 </style>
 
-<body>
+<body> 
 
-  <h2>Toggle Dark/Light Mode</h2>
-<p>Click the button to toggle between dark and light mode for this page.</p>
+  <header>
+    <div class="container">
 
-    <label class="switch" >
-      <input type="checkbox" onclick="myFunction()">
-      <span class="slider round"></span>
-    </label>
- 
+      <a href="#">
+      <img src="logo.png" alt="Logo peperoni Tech" width="170px" height="110px" class="logo">
+    </a>
+<nav>
+  <ul>
+    <li><a href="#"><img src="Icons/Computer.png" class="navimg" >Home</a></li>
+    <li><a href="#"><img src="Icons/Defrag.png" class="navimg" >Projects</a></li>
+    <li><a href="#"><img src="Icons/Programs.png" class="navimg" >Software</a></li>
+    <li><a href="#"><img src="Icons/Help.png  " class="navimg" >About</a></li>
+    <li><a href="#"><img src="Icons/Device 2.png" class="navimg" >Contact</a></li>
+    <li><a href="#"><img src="Icons/Users.png" class="navimg" >Donate</a></li>
+    <li><a href="#"><img src="Icons/youtube_social_squircle_red.png"   class="navimg"></a></li>
+    
+  </ul>
 
+  
+</nav>
 
-
-
-<script>
-      function myFunction() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-      }
-</script>
+      </div>
+  </header>
 
 </body>
 

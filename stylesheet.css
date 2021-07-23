@@ -72,3 +72,20 @@ nav a:hover::before {
     margin-right: 3px;
 }
 
+body {
+    background-color: black;
+    color: white;
+    background-image: url('win2.jpg');
+    backdrop-filter: blur(5px);
+    
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  
+  
+  
+  }

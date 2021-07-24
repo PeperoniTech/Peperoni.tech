@@ -120,7 +120,7 @@ body {
 
 
 .project-1 {
-  background: url('Icons/Computer.png');
+  background: url('android-chrome-192x192.png');
   background-size: cover;
   color: white;
 }
@@ -152,7 +152,7 @@ body {
 
 
 .project-8 {
-  background: url('Icons/Defrag.png');
+  background: url('Icons/logooperation.png');
   background-size: cover;
 }
 
@@ -167,7 +167,7 @@ body {
     width: 16em;
     margin: 0 auto;
     border-right: 5px solid #000000;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;transform: translateY(-50%);
